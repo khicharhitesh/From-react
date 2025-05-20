@@ -207,7 +207,7 @@ const Form = () => {
 
         <div className="flex items-center gap-4 mb-4">
           <div className="relative w-14 h-14 rounded-full bg-teal-700 text-white flex items-center justify-center text-2xl">
-            f
+            H
             <div className="absolute bottom-0 right-0 bg-white border rounded-full p-1 text-teal-700">
               <FaCamera size={12} />
             </div>
@@ -215,7 +215,7 @@ const Form = () => {
 
           <div className="w-full">
             <label className="block text-sm font-medium mb-1">Name</label>
-            <input type="text" className="w-full border p-2 rounded" placeholder="Enter your name" maxLength={30} defaultValue="future code" />
+            <input type="text" className="w-full border p-2 rounded" placeholder="Enter your name" maxLength={30} defaultValue="" />
             <div className="text-right text-sm text-gray-500">11 / 30</div>
           </div>
         </div>
